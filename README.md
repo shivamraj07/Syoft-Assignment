@@ -1,3 +1,10 @@
+The task is all about to test your UI skills as well as to test your integration skills. go with your own creativity while developing UI screens.
+
+Your task consists of you creating 3 pages
+Sign up
+Log In
+Dashboard
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
