@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-container {
+  background-image: url("https://res.cloudinary.com/dlzmilwoo/image/upload/v1684160526/Back_Ground_kjeyfv.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-card {
+  text-align: center;
+  width: 40%;
+  height: 40%;
+  border-radius: 15px;
+  background-color: #ffffff;
+  align-self: center;
+  padding: 25px;
+}
+
+.dashboard-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: black;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #142e5d;
+  padding: 10px;
+}
+
+.dashboard-button {
+  border-radius: 15px;
+  color: white;
+  background-color: #414957;
+  height: 40px;
+  width: 60%;
+  margin: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  border: none;
+  letter-spacing: 1px;
+}
+
+.dashboard-button:hover {
+  background-color: #162746;
+}
+
+@media screen and (max-width: 425px) {
+  .bg-container {
+    background-size: cover;
+  }
+  .bg-card {
+    width: 70%;
+    height: 55%;
+    align-self: center;
+    padding: 10px;
+  }
+  .dashboard-heading {
+    font-size: 25px;
+    text-align: center;
+  }
+  .description {
+    font-size: 18px;
+  }
+
+  .dashboard-button {
+    width: 220px;
+    height: 25px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+  .bg-container {
+    background-size: cover;
+  }
+  .bg-card {
+    width: 45%;
+    height: 50%;
+    align-self: center;
+  }
+  .dashboard-heading {
+    font-size: 28px;
+    text-align: center;
+  }
+  .description {
+    font-size: 18px;
+  }
+
+  .dashboard-button {
+    width: 285px;
+    height: 25px;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+}

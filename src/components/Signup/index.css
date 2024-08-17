@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.signup-page-bg-container {
+  background-image: url("https://res.cloudinary.com/dlzmilwoo/image/upload/v1684160526/Back_Ground_kjeyfv.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-page-card {
+  text-align: center;
+  width: 35%;
+  height: 60%;
+  border-radius: 15px;
+  background-color: #ffffff;
+  align-self: center;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.signup-page-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+  padding: 8px;
+}
+
+.signup-bg-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 45px;
+  text-align: left;
+}
+
+.signup-input-box {
+  margin-top: 20px;
+  position: relative;
+  width: 320px;
+  height: 18px;
+  padding: 5px;
+  font-size: 14px;
+  background-color: #e6f6ff;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #147ea2;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+}
+
+.signup-input-box:focus {
+  border: 0.5px solid #147ea2;
+  outline: 1px solid #147ea2;
+}
+
+.signup-button {
+  background-color: #147ea2;
+  width: 335px;
+  height: 28px;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 8px;
+  align-items: center;
+  border-width: 0;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 14px;
+}
+
+.signup-button:hover {
+  background-color: #142e5d;
+}
+
+@media screen and (max-width: 425px) {
+  .signup-page-bg-container {
+    background-size: cover;
+  }
+  .signup-page-card {
+    width: 70%;
+    height: 76%;
+    align-self: center;
+    padding: 5px;
+  }
+  .signup-page-heading {
+    font-size: 22px;
+  }
+  .signup-input-box {
+    width: 200px;
+    height: 12px;
+    font-size: 12px;
+  }
+  .signup-button {
+    width: 220px;
+    height: 22px;
+    font-size: 12px;
+    margin-top: 12px;
+  }
+  .signup-bg-form {
+    margin-left: 42px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+  .signup-page-bg-container {
+    background-size: cover;
+  }
+  .signup-page-card {
+    width: 45%;
+    height: 76%;
+    align-self: center;
+  }
+
+  .signup-input-box {
+    width: 270px;
+    height: 15px;
+    font-size: 12px;
+    margin-top: 14px;
+  }
+  .signup-button {
+    width: 285px;
+    height: 25px;
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  .signup-bg-form {
+    margin-left: 32px;
+  }
+}

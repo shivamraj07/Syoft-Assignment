@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.login-page-bg-container {
+  background-image: url("https://res.cloudinary.com/dlzmilwoo/image/upload/v1684160526/Back_Ground_kjeyfv.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-page-card {
+  text-align: center;
+  width: 40%;
+  height: 55%;
+  align-self: center;
+  border-radius: 15px;
+  background-color: #ffffff;
+
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.login-page-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: black;
+  padding: 10px;
+}
+
+.input-box {
+  margin-top: 20px;
+  position: relative;
+  width: 320px;
+  height: 18px;
+  padding: 5px;
+  font-size: 14px;
+  background-color: #e6f6ff;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #147ea2;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+}
+
+.input-box:focus {
+  border: 0.5px solid #147ea2;
+  outline: 1px solid #147ea2;
+}
+
+.bg-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 75px;
+  text-align: left;
+}
+
+.form-label {
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.login-button {
+  background-color: #147ea2;
+  width: 335px;
+  height: 28px;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 8px;
+  align-items: center;
+  border-width: 0;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #142e5d;
+}
+
+@media screen and (max-width: 425px) {
+  .login-page-bg-container {
+    background-size: cover;
+  }
+  .login-page-card {
+    width: 70%;
+    height: 72%;
+    align-self: center;
+    padding: 10px;
+  }
+  .login-page-heading {
+    font-size: 28px;
+  }
+  .input-box {
+    width: 200px;
+    height: 15px;
+    font-size: 12px;
+  }
+  .login-button {
+    width: 220px;
+    height: 25px;
+    font-size: 14px;
+  }
+  .bg-form {
+    margin-left: 42px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 769px) {
+  .login-page-bg-container {
+    background-size: cover;
+  }
+  .login-page-card {
+    width: 50%;
+    height: 72%;
+    align-self: center;
+  }
+
+  .input-box {
+    width: 270px;
+    height: 15px;
+    font-size: 12px;
+  }
+  .login-button {
+    width: 285px;
+    height: 25px;
+    font-size: 14px;
+    margin-left: 12px;
+  }
+  .bg-form {
+    margin-left: 50px;
+  }
+}
